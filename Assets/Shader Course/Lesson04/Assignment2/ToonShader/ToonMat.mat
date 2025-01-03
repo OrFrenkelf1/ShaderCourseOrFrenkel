@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ToonMat
+  m_Shader: {fileID: -6465566751694194690, guid: 165e9eea3e3c6d54abb36a616e845a98, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Attenuation: 1
+    - _BlinnPhong_Phong: 0
+    - _Divide: 0.42
+    - _Fade_Distance: 75
+    - _Max: 1
+    - _Min: 0.1
+    - _Outline_Size: 5
+    - _Outline_Thickness: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Shading1: 0.2
+    - _Shading2: 1
+    - _Shading_01: 0.66
+    - _Shading_01_Attenuation: 0.1
+    - _Shading_02: 0.33
+    - _Shading_02_Attenuation: 0.53
+    - _Slider: 1
+    - _Slider_Phong_BlinnPhong: 0
+    - _Specular_Range: 3
+    - _Specular_Range_BlinnPhong: -0.08
+    - _Specular_Range_Phong: 6
+    m_Colors:
+    - _Color: {r: 0.40970984, g: 0.86398226, b: 0.9339623, a: 0}
+    - _Color_1: {r: 0.5018867, g: 0.5018867, b: 0.5018867, a: 1}
+    - _LightDir: {r: 1, g: 1, b: 1, a: 0}
+    - _Outline_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_Color: {r: 1, g: 0.25471687, b: 0.25471687, a: 0}
+    - _Shadow_Color_01: {r: 0.2708195, g: 0.19023673, b: 0.4245283, a: 1}
+    - _Shadow_Color_02: {r: 0.3018868, g: 0, b: 0.03782841, a: 0}
+    - _Specular_Color: {r: 3.4030833, g: 4.181566, b: 3.1361747, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &8376304374716471647
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
