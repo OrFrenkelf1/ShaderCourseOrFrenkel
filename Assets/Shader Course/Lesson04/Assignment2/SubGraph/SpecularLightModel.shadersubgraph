@@ -56,7 +56,14 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "6d260ad5e2b74adbb2a9617fd00f837b"
+        },
+        {
+            "m_Id": "b78f763920c94b66b4fa9b4c5ee6e9ea"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -362,10 +369,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -751.0,
-            "y": -43.99999237060547,
-            "width": 157.0,
-            "height": 34.000003814697269
+            "x": -738.4000244140625,
+            "y": -24.79998779296875,
+            "width": 157.60003662109376,
+            "height": 33.600006103515628
         }
     },
     "m_Slots": [
@@ -398,10 +405,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -449.0000305175781,
-            "y": -251.0,
-            "width": 145.0,
-            "height": 33.999969482421878
+            "x": -427.20001220703127,
+            "y": -226.39999389648438,
+            "width": 145.60003662109376,
+            "height": 33.600006103515628
         }
     },
     "m_Slots": [
@@ -526,6 +533,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "6d260ad5e2b74adbb2a9617fd00f837b",
+    "m_Title": "Color",
+    "m_Content": "Multiply with specular color",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 117.5999984741211,
+        "y": -361.6000061035156,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "6e378c29b7b44924bf8626dbd1ba376b",
     "m_Group": {
@@ -536,10 +563,10 @@
         "m_Expanded": false,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -296.0000305175781,
-            "y": -257.9999694824219,
-            "width": 119.0,
-            "height": 100.99998474121094
+            "x": -274.4000244140625,
+            "y": -233.60000610351563,
+            "width": 118.4000244140625,
+            "height": 100.0
         }
     },
     "m_Slots": [
@@ -867,10 +894,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -518.0,
-            "y": -115.99999237060547,
-            "width": 119.99996948242188,
-            "height": 34.0
+            "x": -504.79998779296877,
+            "y": -96.80001831054688,
+            "width": 120.0,
+            "height": 33.600006103515628
         }
     },
     "m_Slots": [
@@ -962,6 +989,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "b78f763920c94b66b4fa9b4c5ee6e9ea",
+    "m_Title": "Specular range",
+    "m_Content": "Through Smoothstep fade",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -359.20001220703127,
+        "y": -349.6000061035156,
+        "width": 200.0,
+        "height": 100.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "b9bf93c24f084411a0e5d3ef92819f39",
     "m_Id": 0,
@@ -1021,10 +1068,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -376.5936279296875,
-            "y": -136.87826538085938,
+            "x": -364.0,
+            "y": -117.60000610351563,
             "width": 208.0,
-            "height": 301.9998779296875
+            "height": 301.60003662109377
         }
     },
     "m_Slots": [
@@ -1210,10 +1257,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -583.5936279296875,
-            "y": -63.878387451171878,
-            "width": 186.00006103515626,
-            "height": 142.0
+            "x": -570.4000244140625,
+            "y": -44.79998779296875,
+            "width": 185.60003662109376,
+            "height": 141.59994506835938
         }
     },
     "m_Slots": [
